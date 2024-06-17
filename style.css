@@ -1,0 +1,172 @@
+body{
+    background: #d6dcdee0;
+}
+
+/* for navbar  */
+nav{
+   display: inline-flex;
+   gap: 50px;
+   background: white;
+   height: 60px;
+   margin-left: 40px;
+   width: 720px;
+   border-radius: 12px;
+   box-sizing: border-box;
+   box-shadow: rgba(136, 135, 135, 0.7);
+   position: fixed;
+}
+nav .nav{
+    margin-left: 70px;
+    display: flex;
+    margin-left: 200px;
+    gap: 50px;
+  
+}
+nav h1{
+    margin-left: 15px;
+    margin-top: 13px;
+}
+nav .nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+   
+
+}
+nav .nav a:hover{
+    color:aqua;
+    
+}
+nav h1 span{
+    color: aquamarine;
+}
+nav h1 {
+    color: rgba(22, 16, 16, 0.488);
+    cursor: pointer;
+}
+
+/*  home page */
+
+.img img{
+    height: 310px;
+    width: 280px;
+    box-sizing: border-box;
+    border-radius: 14px;
+   /* box-shadow: 5px white;
+    border-right:  8px solid white;
+    border-bottom:  8px solid white;
+    border-top:  3px solid white;
+    border-left: 3px solid white;*/
+    border: 6px solid white ;
+    box-shadow: 12px 12px 12px 12px rgba(0,0,
+    0,0.3);
+    margin-top: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+
+.intro{
+    height: 300px;
+    width: 280px;
+    background: rgb(205, 201, 201);
+    word-wrap: break-word;
+    border-radius:15px ;
+    gap: 1px;
+    box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.3);
+    margin-left: 460px;
+    margin-top: -313px;
+    border: 6px solid white;
+   
+   
+}
+.intro h1{
+    margin-top: 5px;
+    margin-left: 34px;
+    color:rgb(32, 231, 164);
+    cursor: pointer;
+    font-size: 38px;
+}
+.intro h1:hover{
+    color: aqua;
+}
+.intro p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 22px;
+    color: rgb(5, 118, 118);
+}
+
+/* about page*/
+.about{
+    margin-top: 120px;
+    
+}
+.about h1{
+    margin-left: 320px;
+    height: 50px;
+    font-size: 42px;
+    color: rgb(2, 121, 121);
+    cursor: pointer;
+    border: 6px solid rgb(6, 113, 117);
+    width: 140px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 15px;
+
+}
+.about h1:hover{
+    background: rgba(0, 255, 255, 0.314);
+}
+.about .edu h1{
+    margin-left: 0px;
+    font-size: 37px;
+    color: rgb(4, 80, 55);
+    cursor: pointer;
+    margin-left: 56px;
+    border: none;
+    background: none;
+}
+.about .edu h1:hover{
+    color: rgb(55, 202, 235);
+}
+.about .edu{
+    height: 300px;
+    background: rgb(205, 201, 201);
+    width: 280px;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: 250px;
+    box-shadow: 12px 12px 12px 12px rgba(0,0,
+    0,0.3);
+    
+}
+.about .edu h3{
+
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.about .edu h3:hover{
+    color: aqua;
+}
+.about .edu button{
+    height: 30px;
+    width: 120px;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    background: rgb(7, 214, 90);
+    cursor: pointer;
+}
+.about .edu button:hover{
+    box-shadow:6px 0px 10px 5px aqua,
+               0px 3px 0px 3px aqua;
+    background: aqua;
+
+}
